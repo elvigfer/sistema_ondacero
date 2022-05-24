@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botones</title>
+    <link rel="stylesheet" href="../assets/styles.css">
+    <script src="https://kit.fontawesome.com/1f90df3c86.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="menu-principal">
+        <ul>
+            <li class="padre mItem"><a href="../index.html">Home</a></li>
+            <li class="padre">Base
+            <li class="hijo mItem"><a href="tipografia.html">Tipografía<a></li>
+            <li class="hijo mItem"><a href="colores.html">Colores</a></li>
+            <li class="hijo mItem"><a href="imagenes.html">Imágenes</a></li>
+           <li class="hijo mItem"><a href="reticula.html">Retículas</a></li>
+           </li>
+           <li class="padre">Componentes
+            <li class="hijo mItem"><a href="marca.html">Marca</a></li>
+           <li class="hijo mItem"><a href="botones.html">Botones</a></li>
+           <li class="hijo mItem"><a href="cards.html">Cards</a></li>
+           <li class="hijo mItem"><a href="formularios.html">Formularios</a></li>
+            <li class="hijo mItem"><a href="reproductor.html"> Reproductor</a></li>
+        </li>
+        </ul>
+   </nav>
+   <button class="hamburger">
+    <i class="fa-solid fa-bars fa-2xl menuIcon"></i>
+    <i class="fa-solid fa-xmark fa-2xl closeIcon"></i>
+</button>
+   <main>
+       <h1>Botones</h1>
+       <p>Un poco de explicación</p>
+       <nav class="menu-secundario">
+        <ul>
+            <li><a href="#ancla-bas">Básicos</a></li>
+            <li><a href="#ancla-pla">Play</a></li>
+            <li><a href="#ancla-sim">Simples</a></li>
+            <li><a href="#ancla-nav">Navegación</a></li>
+            <li><a href="#ancla-red">Redondos</a></li>
+        </ul>
+    </nav>
+       <h2 id="ancla-bas">Básicos</h2>
+       <p>Una breve explicación</p>
+       <div class="container-horizontal btns">
+           <button class="simple uno">Botón</button>
+           <button class="simple dos">Botón</button>
+           <button class="simple tres">Botón</button>
+       </div>
+       <h2 id="ancla-pla">Play</h2>
+       <p>Una breve explicación</p>
+        <div class="container-horizontal btns">
+            <div>
+            <img src="../assets/imgs/btn_escuchar_ind_v.png" alt="Boton escuchar verde" style="width: 178px;">
+            <img src="../assets/imgs/btn_escuchar_doble_v.png" alt="Boton escuchar verde" style="width: 178px;">
+            </div>
+            <div>
+            <img src="../assets/imgs/btn_escuchar_ind_n.png" alt="Botón escuchar negro" style="width: 178px;">
+            <img src="../assets/imgs/btn_escuchar_doble_n.png" alt="Botoón escuchar negro" style="width: 178px;">
+            </div>
+        </div>
+       
+       <h2 id="ancla-sim">Simples</h2>
+       <p>Una breve explicación</p>
+       <div class="container-horizontal btns">
+           <button class="superior sin">Normal</button>
+           <button class="superior con">Pulsado</button>
+           <button class="superior ne">Negativo</button>
+       </div>
+       
+       <h2 id="ancla-nav">Navegación</h2>
+       <p>Una breve explicación</p>
+       <div class="container-horizontal btns">
+        <div>
+        <img src="../assets/imgs/menu_inferior.png" alt="Barra de navegacion" style="width: 365px; height: 81px;"></div>
+       <div class="container-horizontal">
+        <img src="../assets/imgs/boton_back_n.png" alt="Boton volver atrás" style="width: 54px; height: 57px;">
+        <img src="../assets/imgs/boton_back_v.png" alt="Botón volver atrás negro" style="width: 54px; height: 57px;">
+       </div>
+       <div class="container-horizontal btns">
+           <img class="puntos" src="../assets/imgs/boton_opciones.png" alt="Botón opciones" style="width: 6px; height: 30px;">
+           <img class="puntos" src="../assets/imgs/boton_opciones_negro.png" alt="Botón opciones negro" style="width: 6px; height: 30px;">
+       </div>
+        </div>
+       
+       <h2 id="ancla-red">Redondos</h2>
+       <p>Una breve explicación</p>
+       <div class="container-horizontal btns">
+           <div>
+           <img class="circular" src="../assets/imgs/boton_like.png" alt="">
+           <img class="circular" src="../assets/imgs/boton_like_v.png" alt="">
+            </div>
+            <div>
+           <img class="circular" src="../assets/imgs/boton_guardar.png" alt="">
+           <img class="circular" src="../assets/imgs/boton_guardar_v.png" alt="">
+        </div>
+        <div>
+            <img class="circular" src="../assets/imgs/boton_compartir.png" alt="">
+            <img class="circular" src="../assets/imgs/boton_compartir_v.png" alt="">
+        </div>
+       </div>
+   </main>
+   <script src="../app/main.js"></script>
+</body>
+</html>

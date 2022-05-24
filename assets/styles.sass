@@ -1,0 +1,466 @@
+@font-face 
+  font-family: 'Barlow light'
+  src: url('fuentes/Barlow-Light.woff2') format('woff2')
+  font-weight: normal
+  font-style: normal
+@font-face 
+  font-family: 'Barlow regular'
+  src: url('fuentes/Barlow-Regular.woff2') format('woff2')
+  font-weight: normal
+  font-style: normal
+@font-face 
+  font-family: 'Barlow medium'
+  src: url('fuentes/Barlow-Medium.woff2') format('woff2')
+  font-weight: normal
+  font-style: normal
+@font-face 
+  font-family: 'Barlow semibold'
+  src: url('fuentes/Barlow-SemiBold.woff2') format('woff2')
+  font-weight: normal
+  font-style: normal
+@font-face 
+  font-family: 'Barlow bold'
+  src: url('fuentes/Barlow-Bold.woff2') format('woff2')
+  font-weight: normal
+  font-style: normal
+//colores//
+$verde: #95c11f
+$negro: #000000
+$blanco: #ffffff
+$humor: #f759bb
+$economia: #f7a600
+$cultura: rgb(93, 151, 237)
+$investigacion: rgb(155, 147, 137)
+$deporte: #f7674f
+$gris-fondo: #f4f4f4
+$gris-texto: rgb(79, 79, 79)
+//tipografías//
+$bold: 'Barlow bold'
+$semibold: 'Barlow semibold'
+$medium: 'Barlow medium'
+$regular: 'Barlow regular'
+$light: 'Barlow light'
+
+body
+  background-color: $gris-fondo
+h1
+  font-family: $bold
+  font-size: 3rem
+  margin: 0
+h2
+  font-family: $semibold
+  font-size: 2rem
+  margin: 0
+h3
+  font-family: $semibold
+  font-size: 1.5rem
+  margin: 0
+p
+  font-family: $regular
+  font-size: 1rem
+  margin: 5px 0
+  color: $gris-texto
+ul
+  list-style: none
+a
+  text-decoration: none
+  color: $blanco
+  &:hover
+    color: $verde
+.menu-principal
+  width: 20%
+  height: 100%
+  position: fixed
+  top: 0
+  left: 0
+  background-color: $negro
+  ul
+    color: $blanco
+    padding: 20px
+    .padre
+      padding-top: 20px
+      font-family: $semibold
+    .hijo
+      padding: 5px 0
+      font-family: $regular
+main
+  box-sizing: border-box
+  width: 80%
+  margin-left: 20%
+  padding: 30px 40px
+.menu-secundario
+  width: 100%
+  padding: 30px 0
+  ul
+    display: flex
+    flex-direction: row
+    font-family: $medium
+    border-bottom: solid 1pt $verde
+    padding-bottom: 10px
+    a
+      color: $gris-texto
+      margin-right: 20px
+      &:hover, &:active
+        color: $verde
+      
+.barlow
+  font-family: $bold
+  font-size: 3rem
+  margin: 10px 0
+  color: $negro
+  span
+    color: $verde
+#pesos
+  margin-bottom: 30px
+  p
+    font-size: 2rem
+    color: $negro
+#negrita
+  font-family: $bold
+#semi
+  font-family: $semibold
+#medium
+  font-family: $medium
+#regular
+  font-family: $regular
+#ligera
+  font-family: $light
+.container
+  margin-bottom: 30px
+.escalatexto
+  height: 80px
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: center
+  border-bottom: 1pt solid $verde
+  .celda-t
+    width: 30%
+  .celda
+    width: 23%
+.color
+  width: 100%
+  height: 150px
+  margin: 15px 0
+  p
+    padding: 15px
+    color: $negro
+#verde-onda
+  background-color: $verde
+#negro-onda
+  background-color: $negro
+  p, .bold
+    color: $blanco
+#blanco-onda
+  background-color: $blanco
+  border: solid 1pt $negro
+#actualidad
+  background-color: $verde
+#humor
+  background-color: $humor
+#cultura
+  background-color: $cultura
+#economia
+  background-color: $economia
+#innovacion
+  background-color: $investigacion
+#deporte
+  background-color: $deporte
+#gris-fondo
+  background-color: $gris-fondo
+  border: solid 1pt $negro
+#gris-texto
+  background-color: $gris-texto
+  
+  p, .bold
+    color: $blanco
+#negro
+  background-color: $negro
+  p, .bold
+    color: $blanco
+.programas-img
+  width: 23%
+  margin: 30px 0
+.podcasts-img
+  width: 20%
+  margin: 30px 0
+.container-horizontal
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: center
+.puntos
+  margin-left: 25px
+.btns
+  justify-content: flex-start
+  margin: 30px 0
+  div
+    margin-right: 30px
+  button
+    margin-right: 15px
+.circular
+  width: 45px
+.simple
+  max-height: 40px
+  height: 40px
+  border: none
+  border-radius: 48px
+  font-family: $semibold
+  font-size: 20px
+  width: 96px
+  box-shadow: 2px 2px 4px #c9c9c9
+.uno
+  background-color: $verde
+.dos
+  background-color: $blanco
+.tres
+  background-color: $negro
+  color: $blanco
+.superior
+  font-family: $medium
+  font-size: 16px
+  border: none
+  border-radius: 16px
+  width: 90px
+.sin
+  background-color: $blanco
+.con
+  background-color: $verde
+.ne
+  background-color: $negro
+  color: $blanco
+.container-dos
+  display: flex
+  flex-direction: row
+  justify-content: flex-start
+  align-items: center
+  margin: 30px 0
+.container-interior
+  display: flex
+  flex-direction: row
+  justify-content: flex-start
+  align-items: center
+  margin-right: 30px
+.card-grande, .card-reducida
+  margin-right: 20px
+  h2
+    font-family: $bold
+    font-size: 24px
+.card-grande
+  width: 187px
+  img
+    width: 187px
+.card-reducida
+  width: 118px
+  img
+    width: 118px
+.card-horizontal
+  width: 380px
+  min-width: 380px
+  height: 100px
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: center
+  margin-right: 30px
+  border-top-right-radius: 48px
+  border-bottom-right-radius: 48px
+  box-shadow: 2px 2px 4px #c9c9c9
+  h3
+    font-family: $semibold
+    font-size: 20px
+  .portada
+    width: 116px
+    height: 116px
+    align-self: flex-end
+  .caratula
+    width: 100px
+    height: 100px
+    align-self: flex-end
+    margin-right: 10px
+  .btn-play
+    width: 26px
+    padding-right: 10px
+.card-episodio
+  width: 380px
+  min-width: 380px
+  height: 100px
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-items: center
+  margin-right: 30px
+  border-bottom: 1pt solid #C4C4C4
+  h4
+    font-family: $bold
+    font-size: 16px
+    margin: 0
+    span
+      font-family: $light
+      color: $gris-texto
+  .portada
+    width: 80px
+  .dato
+    font-family: $light
+    color: $gris-texto
+    font-size: 14px
+form
+  width: 358px
+  height: 420px
+  background-color: $verde
+  display: flex
+  flex-direction: column
+  align-items: center
+  margin-top: 30px
+  border-radius: 24px
+  h2
+    font-family: $regular
+    margin: 15px 0
+  button
+    max-height: 40px
+    height: 40px
+    border: none
+    border-radius: 48px
+    font-family: $semibold
+    font-size: 20px
+    width: 96px
+    box-shadow: 2px 2px 4px #c9c9c9
+    background-color: $blanco
+    
+  input
+    width: 235px
+    height: 40px
+    border-radius: 24px
+    border: none
+    box-shadow: -1px 2px 2px #c4c4c4
+    padding-left: 10px
+    margin: 10px 0
+  .check
+    width: 15px
+    height: 15px
+  label
+    font-family: $bold
+    font-size: 16px
+    align-self: flex-start
+    margin-left: 60px
+.terms
+  display: flex
+  flex-direction: row
+  align-items: center
+  p
+    color: $negro
+    padding-left: 10px
+.container-rep
+  width: 200px
+  margin-right: 50px
+  justify-content: space-between
+  display: flex
+  flex-direction: row
+.repro
+  margin-right: 50px
+.bold
+  font-family: $semibold
+  color: $negro
+  margin-bottom: 10px
+  margin-top: 0
+.barra
+  margin-right: 30px
+.tiempo
+  display: flex
+  flex-direction: row
+  width: 203px
+  justify-content: space-between
+  margin-right: 30px
+  margin-top: -30px
+.logo
+  width: 122px
+  height: 100px
+.marca-texto
+  width: 500px
+  margin-right: 20px
+.escalatexto
+  h1
+    font-size: 36px
+  .light
+    font-family: $light
+  h2
+    font-size: 24px
+    font-family: $bold
+  .epi
+    font-family: $regular
+  h3
+    font-size: 30px
+  h4
+    font-size: 16px
+    font-family: $bold
+  .epi4
+    font-family: $regular
+  .but
+    font-family: $semibold
+    font-size: 20px
+    color: $negro
+  .bold
+    color: $gris-texto
+  .datos
+    font-family: $medium
+    font-size: 20px 
+  .fecha
+    font-family: $medium
+    font-size: 16px
+.hamburger
+  display: none
+  
+@media only screen and (max-width: 767px)
+  .hamburger 
+    display: block
+    position: fixed
+    z-index: 100
+    top: 1rem
+    left: 1rem
+    padding: 4px
+    cursor: pointer
+    border: none
+    background-color: transparent
+  .closeIcon
+    display: none
+    color: $gris-fondo
+  .menu-principal 
+    position: fixed
+    transform: translateY(-100%)
+    transition: transform 0.2s
+    top: 0
+    left: 0
+    z-index: 99
+    background-color: $negro
+    color: white
+    list-style: none
+    padding-top: 4rem
+    width: 75%
+  .showMenu 
+    transform: translateY(0)
+  main
+    width: 100%
+    padding: 30px 30px 0 60px
+    margin: 0
+  .container-dos
+    flex-direction: column
+    .container-interior
+      margin-bottom: 30px
+    .card-horizontal
+      margin-bottom: 30px
+  .escalatexto
+    p
+      15%
+    .celda-t
+      width: 50%
+  .programas-img
+    width: 45%
+  .container-horizontal
+    flex-wrap: wrap
+  .podcasts-img
+    width: 40%
+  .marca-texto
+    width: 90%
+  .logo
+    width: 23%  
+    height: 23%
