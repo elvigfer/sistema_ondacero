@@ -741,6 +741,10 @@ form label {
   margin-left: 30px;
 }
 
+.container-index img {
+  width: 100%;
+}
+
 @media only screen and (max-width: 767px) {
   .hamburger {
     display: block;
@@ -818,6 +822,19 @@ form label {
   }
   .repro img {
     width: 300px;
+  }
+  #portada {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #portada .container-index {
+    width: 100%;
+  }
+  #portada .container-index img {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
