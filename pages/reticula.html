@@ -7,6 +7,8 @@
     <title>Retícula</title>
     <link rel="stylesheet" href="../assets/styles.css">
     <script src="https://kit.fontawesome.com/1f90df3c86.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../assets/imgs/favicon.png" type="image/x-icon">
+    <link rel="icon" href="../assets/imgs/favicon.png" type="image/x-icon">
 </head>
 <body>
     <nav class="menu-principal">
@@ -33,6 +35,18 @@
 </button>
    <main>
        <h1>Retícula</h1>
+       <nav class="menu-secundario">
+        <ul>
+            <li><a href="#ancla-mob">Móvil</a></li>
+            <li><a href="#ancla-desk">Desktop</a></li>
+        </ul>
+    </nav>
+       <h2 id="ancla-mob">Versión móvil</h2>
+       <p>La retícula para la aplicación móvil está formada por 16 filas de 64 px cada una y 4 columnas. Además, para tener más control de espacios entre elementos tiene una cuadrícula de 8x8 px.</p>
+       <img id="ret-mob" src="../assets/imgs/reticula_movil.jpg" alt="Retícula móvil">
+       <h2 id="ancla-desk">Versión desktop</h2>
+       <p>La retícula para la versión desktop tiene una estructura similar a la anterior, pero el doble de columnas y márgenes más amplios, ya que el espacio disponible es mayor</p>
+       <img id="ret-desk" src="../assets/imgs/reticula_desktop.jpg" alt="Retícula desktop">
    </main>
    <script src="../app/main.js"></script>
 </body>
